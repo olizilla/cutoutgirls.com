@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Cut Out Girls</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/vendor/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+<header>
+	<h1 class="ir">Cut Out Girls</h1>
+	<img src="img/logo.jpg" alt="Cut Out Girls" class="lrg">
+</header>
+
+<div id="main" role="main">
+	<section id="intro">
+		<img src="img/DSC_0106.JPG" alt="" class="med">
+		<img src="img/DSC_0122.JPG" alt="" class="med">
+		<p>With a shared passion for unusual and found objects the Cut Out Girls strive to use recycled and reclaimed materials where possible throughout the designing process, which in turn influences each collection’s creation. The designs are centered on quality and a perfect handmade finish, being manipulated through traditional craft techniques and practices. </p>
+		<p class="tldr">All their bags are designed and handmade individually in South East London, straight from the studio. </p>
+	</section>
+	<section id="where">
+		<div class="slideshow">
+			<div class="slide-container">
+				<img src="img/stall-1.jpg" alt="" class="lrg">
+			</div>
+		</div>
+		<p>Their foundations were first built trading at small East London craft markets, laying their roots within the inspiring and booming craft community. Personally engaging with customers and sharing their designs in this environment, played a pivotal role in the development of the label. Later moving their stall to <a href="http://www.backyardmarket.co.uk/?a=venue">Brick Lane’s Backyard Market</a> has provided a further source of inspiration, from the street style to all the various market traders selling their wares.
+		<p class="tldr"><a href="http://cutoutgirls.tumblr.com/">Their daily blog</a> notifies of regular events and markets, alongside inspiration and updates.</p></p>
+	</section>
+	<section id="who">
+		<img src="img/69930015.JPG" alt="" class="med">
+		<img src="img/69930019.JPG" alt="" class="med">
+		<p>Elizabeth Chilton and Carla Bromhead first met whilst studying Fine Art at Newcastle University. In 2011 they joined forces to establish the label CUT OUT GIRLS ltd. Inspired by their move to London and a desire to keep creating and collaborating, their first motivations came from using surplus canvas and paintings from university.</p>
+		<p class="tldr">This concept of reinvention, and manipulating unique left-over materials formed their first functional bag collection.</p>
+		<!--<img src="img/69930009.JPG" alt="" class="lrg">-->
+	</section>
+	<section id="collection">
+		<img src="http://cache0.bigcartel.com/product_images/61326023/DSC_0233__3__copy.jpg" alt="" class="sml">
+		<img src="http://cache0.bigcartel.com/product_images/44293949/P1080162.jpg_smaller.jpg" alt="" class="sml">
+		<img src="http://cache0.bigcartel.com/product_images/55726717/for_website.jpg" alt="" class="sml">
+	</section>
+</div>
+
+<footer>
+	<nav>
+		<a href="http://cutoutgirls.bigcartel.com">Stockists</a>
+		<a href="http://twitter.com/cutoutgirls">Twitter</a>
+		<a href="https://www.facebook.com/pages/Cut-Out-Girls/184447548267248">Facebook</a>
+		<a href="http://cutoutgirls.tumblr.com">Blog</a>
+	</nav>
+</footer>
+
+<!-- js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<!--<script src="js/main.js"></script>-->
+<script>
+	$(document).ready(function(){
+		function startSlideshow() {
+			// Create an array of slide objects
+			var slides = [
+				{ url: 'img/stall-1.jpg' },
+				{ url: 'img/stall-2.jpg' },
+				{ url: 'img/stall-3.jpg' }
+			];
+
+			// Add the slides on initialisation
+			$('.slideshow').rsfSlideshow({slides: slides});
+		}
+
+//		function hideSections() {
+//			$('#who').hide();
+//			$('#collection').hide();
+//		}
+//
+//		function setUpNav(){
+//			$('a[href="#collection"]').click(function(){
+//				$("#collection").slideToggle();
+//			})
+//		}
+//
+//		hideSections();
+//		setUpNav();
+		startSlideshow();
+
+	});
+</script>
+</body>
+</html>
